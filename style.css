@@ -1,0 +1,144 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #7b0738;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+nav .logo {
+  height: 100%;
+}
+nav .logo img {
+  height: 90%;
+}
+nav .navigation {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav .navigation a {
+  color: white;
+  text-decoration: none;
+}
+footer {
+  width: 100%;
+  min-height: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #7b0738;
+  padding-bottom: 20px;
+}
+footer .links {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .links a {
+  color: white;
+  text-decoration: none;
+}
+footer .copyright {
+  color: white;
+}
+* {
+  margin: 0;
+}
+html {
+  background-color: #bc2b62;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: Roboto;
+}
+#wrapper {
+  width: 100%;
+}
+.splash {
+  height: 500px;
+  background-image: url("../assets/images/marvels-guardians-of-the-galaxy-4k-wallpaper-3840x2160-uhdpaper.com-533.1_a.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.splash .splashContent {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: rgba(89, 72, 150, 0.65);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.full {
+  min-height: 300px;
+  background-color: #aaabfd;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.full p {
+  width: 50%;
+  margin: 30px 0px 30px 0px;
+}
+.content {
+  min-height: 300px;
+  background-color: #594896;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 200px 50px 200px;
+}
+.content .box {
+  width: 400px;
+  height: 300px;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 0px 0px 10px 0px;
+  background-color: #aaabfd;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content .box .imgBox {
+  border: 3px white solid;
+  border-radius: 10px;
+  width: 90%;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */
